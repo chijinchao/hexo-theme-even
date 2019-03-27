@@ -1,42 +1,37 @@
 # hexo-theme-even
+A super simple theme for Hexo
 
-A simple theme for Hexo blog framework
-
-Desktop Browser:
-![even](http://ww4.sinaimg.cn/large/006tNbRwjw1f6l0ryrho2j31kw0yb7a6.jpg)
-
-Colorful & Mobile:
-![colorful and mobile](http://ww1.sinaimg.cn/large/72f96cbagw1f7e0aftmitj21dz0hhn2f.jpg)
-
-**Now, you can change the theme color, modify theme-color item in _config.yml.**
+[![GitHub stars](https://img.shields.io/github/stars/ahonn/hexo-theme-even.svg)](https://github.com/ahonn/hexo-theme-even/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ahonn/hexo-theme-even.svg)](https://github.com/ahonn/hexo-theme-even/network)
+[![GitHub issues](https://img.shields.io/github/issues/ahonn/hexo-theme-even.svg)](https://github.com/ahonn/hexo-theme-even/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ahonn/hexo-theme-even/master/LICENSE)
 
 ## Demo
-Check out Even theme in live : [demo](http://www.ahonn.me)
+[在线预览 Demo](http://ahonn.github.io/)
 
-## Document
-- [中文文档](/doc/doc_zh.md)
-- [Document](/doc/doc_en.md)
+## Feature
+- 自定义样式
+- 支持 Fancybox
+- 版权信息，自定义许可协议
+- 文章打赏，添加二维码
+- 支持 LaTeX（使用 MathJax）
+
+## Screenshots
+![even-screenshots](http://ouv0frko5.bkt.clouddn.com/blog/6n2zu.png)
 
 ## Installation
-```
-$ hexo init blog
-$ cd blog
-$ npm install
-$ npm install --save hexo-renderer-jade hexo-renderer-scss hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-$ cd themes/
-$ git clone https://github.com/ahonn/hexo-theme-even even
-$ cd even/
-$ cp _config.yml.sample _config.yml
+```bash
+$ npm install hexo-renderer-scss --save
+$ git clone https://github.com/ahonn/hexo-theme-even themes/even
 ```
 
-Then update your blog's `_config.yml`(yourblog/_config.yml_) to use the theme.
+修改配置文件中的 `theme` 字段为 `even`:
 
-```
+```yaml
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: even
 ```
 
-## Contact
-Email: [ahonn95@outlook.com](mailto:ahonn95@outlook.com)
+更多主题设置，查看 [Document](https://github.com/ahonn/hexo-theme-even/wiki)
